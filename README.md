@@ -40,14 +40,19 @@ jupyter notebook house_price_reg.ipynb
 ## 📋 Project Structure
 
 ```
-house-price-prediction/
+celebal-5-house_prediction/
 │
-├── house_price_reg.ipynb        # Main notebook
-├── README.md                    # This file
-├── train.csv                    # Training data (download from Kaggle)
-├── test.csv                     # Test data (download from Kaggle)
-├── sample_submission.csv        # Sample submission (download from Kaggle)
-└── submission.csv               # Generated predictions (output)
+├── house_price_prediction.ipynb # Main Jupyter notebook
+├── README.md # This file
+├── train.csv # Training data (download from Kaggle)
+├── test.csv # Test data (download from Kaggle)
+├── sample_submission.csv # Sample submission (download from Kaggle)
+├── submission.csv # Generated predictions (output)
+├── visuals/ # Folder containing saved visuals
+│ ├── feature_importance.png
+│ ├── log_saleprice_distribution.png
+│ ├── model_comparison.png
+│ └── top15_correlation_heatmap.png
 ```
 
 ## 🔧 Pipeline Components
